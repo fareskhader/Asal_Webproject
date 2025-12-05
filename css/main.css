@@ -97,6 +97,7 @@ section h2 {
   justify-content: center;
   margin-top: var(--spacing-xl);
 }
+
 .section-indicator span {
   width: 10px;
   height: 10px;
