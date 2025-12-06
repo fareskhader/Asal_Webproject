@@ -191,3 +191,38 @@ section h2 {
   gap: var(--spacing-xs);
   margin-bottom: var(--spacing-md);
 }
+.book-categories span {
+  font-size: 0.85rem;
+  color: var(--primary-color);
+}
+
+.book-categories span:not(:last-child)::after {
+  content: '•';
+  margin-left: var(--spacing-xs);
+  color: var(--gray-400);
+}
+
+.book-price {
+  margin-bottom: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.current-price {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: var(--gray-500);
+  font-size: 0.9rem;
+}
+
+.book-rating {
+  margin-bottom: var(--spacing-md);
+  color: rgb(18, 139, 219);
+  font-size: 0.9rem;
+}
