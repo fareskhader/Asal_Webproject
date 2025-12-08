@@ -464,3 +464,61 @@ display: grid;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
+
+.review-rating {
+  color: rgb(12, 156, 192);
+  font-size: 1.2rem;
+}
+
+.banner .banner_img{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner_btn {
+    padding: 8px 20px;
+    background: #089da1;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 7%;
+}
+
+.digital-promo-content{
+  direction: rtl;
+  text-align: left;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner_btn {
+    padding: 8px 20px;
+    background: #089da1;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 7%;
+}
+
+
+
+.promo-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.promo-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--white);
+}
