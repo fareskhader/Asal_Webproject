@@ -248,3 +248,47 @@ footer {
   margin: 0.5rem 0;
   font-weight: 600;
 }
+.about-section {
+  padding: 4rem 0;
+}
+.about-grid {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-image {
+  flex: 0 0 30%; 
+  max-width: 5000pc;
+}
+.about-image img {
+  width: 200%;
+  height: auto;
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+}
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.about-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.btn-primary {
+  margin-left: 110px;
+margin-top: 20px;
+  display: block;
+  background-color: rgb(15, 184, 184);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
