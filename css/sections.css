@@ -376,3 +376,30 @@ margin-top: 20px;
   background: #007BFF;
   color: #fff;
 }
+.arrivals-section {
+  background-color: var(--white);
+}
+
+.book-card-s{
+
+flex: 0 0 auto;
+  width: 180px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  text-align: center;
+
+}
+
+.books-grid-s{
+display: grid;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  padding: 20px 0;
+}
