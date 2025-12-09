@@ -522,3 +522,120 @@ display: grid;
   margin-bottom: var(--spacing-lg);
   color: var(--white);
 }
+
+.promo-content p {
+  font-size: 1.12rem;
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.6;
+}
+
+.promo-content .btn-primary {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.promo-content .btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.banner .banner_btn {
+    padding: 8px 20px;
+    background: #089da1;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 7%;
+}
+
+
+
+
+
+
+.blog-section {
+  background-color: var(--shadow-lg);
+}
+
+.blog-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.blog-card {
+  background-color: var(--white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.blog-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: var(--spacing-xl);
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.blog-content p {
+  color: var(--light-text);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+}
+
+.blog-meta {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  font-size: 0.9rem;
+  color: var(--gray-500);
+}
+
+.blog-meta i {
+  margin-right: var(--spacing-xs);
+}
+
+.read-more {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 500;
+  position: relative;
+}
+
+.read-more::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width var(--transition-normal);
+}
+
+.read-more:hover::after {
+  width: 100%;
+}
